@@ -1,0 +1,62 @@
+body{
+    font-family: "Spline Sans", "Sans- Serif";
+}
+
+nav{
+    background-color: #EBFEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    padding: 20px 40px;
+    width: 100%;
+    position: fixed;
+
+    P{
+        margin-right: 10000px;
+    }
+}
+
+.Menu{
+    display: flex;
+    color: black;
+    list-style: none;
+    gap: 32px;
+}
+
+a{
+    color: black;
+    font: 20px;
+    text-decoration: none;
+}
+
+
+.hero{
+    background-image: url(/Background\ Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 32px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero > *{
+    max-width: 640px;
+    padding: 0px 20px;
+}
+
+.Logo{
+    width: 60px;
+    height: 45px;
+}
+
+.nama{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+}
